@@ -7,6 +7,7 @@ import { Link as ScrollLink } from "react-scroll"
 import { FaDocker, FaAws, FaLinux, FaGitAlt } from "react-icons/fa"
 import { SiKubernetes, SiJenkins, SiTerraform, SiAnsible, SiPrometheus } from "react-icons/si"
 
+
 export default function Hero() {
   return (
     <section id="hero" className="section min-h-screen flex flex-col justify-center relative">
@@ -21,7 +22,7 @@ export default function Hero() {
             <h2 className="text-xl md:text-2xl font-medium text-primary">Hello, I&apos;m</h2>
             <h1 className="text-4xl md:text-6xl font-bold">Priyanshi Jat</h1>
             <h3 className="text-2xl md:text-3xl text-muted-foreground">
-              DevOps Engineer & Cloud Infrastructure Specialist
+              DevOps Engineer & Cloud Infrastructure Specialist.
             </h3>
             <p className="text-lg text-muted-foreground max-w-md">
               A lawyer-turned-DevOps enthusiast building scalable cloud infrastructure and automation solutions.

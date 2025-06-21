@@ -16,7 +16,7 @@ export default function Skills() {
       skills: [
         { name: "Docker", level: 90 },
         { name: "Kubernetes", level: 85 },
-        { name: "Jenkins", level: 90 },
+        { name: "Jenkins", level: 80 },
         { name: "Ansible", level: 80 },
         { name: "Terraform", level: 85 },
       ],
