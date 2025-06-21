@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Github, Download, ArrowDown } from "lucide-react"
 import { Link as ScrollLink } from "react-scroll"
-import { FaDocker, FaAws, FaLinux, FaGitAlt, FaPython } from "react-icons/fa"
+import { FaDocker, FaAws, FaLinux, FaGitAlt } from "react-icons/fa"
 import { SiKubernetes, SiJenkins, SiTerraform, SiAnsible, SiPrometheus } from "react-icons/si"
 
 export default function Hero() {
