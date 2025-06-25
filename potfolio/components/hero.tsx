@@ -34,13 +34,23 @@ export default function Hero() {
                   GitHub
                 </a>
               </Button>
-              {/* i want to give my resume store in public folder */}
-              <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10">
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-                  <Download className="mr-2 h-5 w-5" />
-                  Download CV
-                </a>
-              </Button>
+              <Button
+  onClick={() => {
+    const link = document.createElement('a')
+    link.href = '/resume.pdf'
+    link.setAttribute('download', 'Priyanshi_Jat_Resume.pdf') // You can set any name you want
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }}
+  variant="outline"
+  size="lg"
+  className="border-primary text-primary hover:bg-primary/10"
+>
+  <Download className="mr-2 h-5 w-5" />
+  Download CV
+</Button>
+
             </div>
           </div>
         </motion.div>
