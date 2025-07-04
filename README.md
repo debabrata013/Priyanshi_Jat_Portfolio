@@ -18,8 +18,8 @@ Priyanshi Jat is a lawyer-turned-DevOps enthusiast with a strong foundation in a
 - AWS Solution Architect Associate
 - Red Hat Certified System Administrator
 
-### Current Role
-**DevOps Intern** at Fluke Infotech, Indore (Dec 2024 - Mar 2025)
+### Internship
+**cloud Intern** at Fluke Infotech, Indore (Dec 2024 - Mar 2025)
 - Supporting senior team members in deployment and management of scalable infrastructure on AWS Cloud
 - Working with services like EC2, S3, IAM, VPC, ECS, Lambda, and automation tools
 
