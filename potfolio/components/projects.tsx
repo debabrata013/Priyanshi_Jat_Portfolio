@@ -60,7 +60,7 @@ export default function Projects() {
       },
       {
         id: 3,
-        title: "Serverless Deployment with AWS",
+        title: "Serverless Deployment ",
         description:
           "Developed and deployed a Python-based AWS Lambda function to perform insert/delete operations on a DynamoDB table. Configured IAM roles for secure access and used CloudWatch for monitoring.",
         image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=300&fit=crop",
