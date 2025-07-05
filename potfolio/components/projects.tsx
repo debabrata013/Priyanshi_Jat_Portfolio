@@ -86,6 +86,21 @@ export default function Projects() {
         category: "cloud",
         achievements: ["40% improved resource utilization", "30% lower latency", "50% reduced security incidents"]
       }
+      {
+        id: 5,
+        title: "online-shopping appication",
+        description:
+          "Cloned an online shopping application from GitHub and containerized it using Docker. Implemented a Jenkins pipeline using a Jenkinsfile to automate the build and deployment process. The pipeline was configured to trigger on every code push, ensuring continuous integration and delivery. This project showcases practical knowledge of source control (GitHub), containerization (Docker), and CI/CD automation (Jenkins)."
+        image: 
+        tags: ["AWS", "GitHub", "Docker", "jenkins"]
+        github: "https://github.com/priyanshijat/online_shop.git"
+        demo: ""
+        stars: 5,
+        forks: 4,
+        category: "devops",
+        achievements: ["achieving 100% deployment automation and 90% faster release cycles"]
+      }
+
     ]
 
     setProjects(mockProjects)
