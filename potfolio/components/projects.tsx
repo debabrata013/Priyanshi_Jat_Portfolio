@@ -34,7 +34,7 @@ export default function Projects() {
         id: 1,
         title: "appointment-booking application",
         description:
-          "Deployed a containerized appointment booking application by cloning the source code from GitHub. Built a custom Docker image and pushed it to Docker Hub. Designed and executed a CI/CD pipeline using Jenkins and a Jenkinsfile to automate the build and deployment process. Utilized Kubernetes for container orchestration, enabling auto-scaling and self-healing of application pods. This project demonstrates hands-on experience with Docker, Jenkins, and Kubernetes in a production-like environment."
+          "Deployed a containerized appointment booking application by cloning the source code from GitHub. Built a custom Docker image and pushed it to Docker Hub. Designed and executed a CI/CD pipeline using Jenkins and a Jenkinsfile to automate the build and deployment process. Utilized Kubernetes for container orchestration, enabling auto-scaling and self-healing of application pods. This project demonstrates hands-on experience with Docker, Jenkins, and Kubernetes in a production-like environment.",
         image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
         tags: ["Docker", "Jenkins", "GitHub", "CI/CD", "Docker Compose", "kubernetes"],
         github: "https://github.com/priyanshijat/appointment-booking.git",
@@ -90,11 +90,11 @@ export default function Projects() {
         id: 5,
         title: "online-shopping appication",
         description:
-          "Cloned an online shopping application from GitHub and containerized it using Docker. Implemented a Jenkins pipeline using a Jenkinsfile to automate the build and deployment process. The pipeline was configured to trigger on every code push, ensuring continuous integration and delivery. This project showcases practical knowledge of source control (GitHub), containerization (Docker), and CI/CD automation (Jenkins)."
-        image: 
-        tags: ["AWS", "GitHub", "Docker", "jenkins"]
-        github: "https://github.com/priyanshijat/online_shop.git"
-        demo: ""
+          "Cloned an online shopping application from GitHub and containerized it using Docker. Implemented a Jenkins pipeline using a Jenkinsfile to automate the build and deployment process. The pipeline was configured to trigger on every code push, ensuring continuous integration and delivery. This project showcases practical knowledge of source control (GitHub), containerization (Docker), and CI/CD automation (Jenkins).",
+        image: "",
+        tags: ["AWS", "GitHub", "Docker", "jenkins"],
+        github: "https://github.com/priyanshijat/online_shop.git",
+        demo: "",
         stars: 5,
         forks: 4,
         category: "devops",
@@ -132,6 +132,7 @@ export default function Projects() {
       },
     },
   }
+  
 
   const item = {
     hidden: { opacity: 0, y: 20 },
@@ -143,14 +144,14 @@ export default function Projects() {
   }
 
   if (isLoading) {
-    return (
+    return (<>
       <section id="projects" className="section">
         <h2 className="section-heading">My Projects</h2>
         <div className="flex justify-center items-center h-64">
           <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
         </div>
       </section>
-    )
+    </>)
   }
 
   return (
