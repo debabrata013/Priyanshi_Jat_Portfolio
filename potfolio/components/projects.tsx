@@ -113,10 +113,10 @@ export default function Projects() {
         forks: 18,
         category: "devops",
         achievements: ["Automated deployment pipeline", "Zero-downtime deployments", "Container orchestration", "API performance optimization", "Comprehensive monitoring setup"]
-      }
+      },
       {
-        id: 5,
-        title: "online-shopping appication",
+        id: 7,
+        title: "online-shopping application",
         description:
           "Cloned an online shopping application from GitHub and containerized it using Docker. Implemented a Jenkins pipeline using a Jenkinsfile to automate the build and deployment process. The pipeline was configured to trigger on every code push, ensuring continuous integration and delivery. This project showcases practical knowledge of source control (GitHub), containerization (Docker), and CI/CD automation (Jenkins).",
         image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
