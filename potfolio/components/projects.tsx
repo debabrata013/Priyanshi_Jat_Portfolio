@@ -32,14 +32,14 @@ export default function Projects() {
     const mockProjects: Project[] = [
       {
         id: 1,
-        title: "Online Shopping Application with Jenkins",
+        title: "appointment-booking application",
         description:
-          "Built and launched an online shopping application on Docker and Docker Compose to containerize the app, pushed images to DockerHub, and configured a Jenkins Pipeline integrated with GitHub for CI/CD and automated deployment.",
-        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-        tags: ["Docker", "Jenkins", "GitHub", "CI/CD", "Docker Compose"],
-        github: "https://github.com/priyanshijat",
+          "Deployed a containerized appointment booking application by cloning the source code from GitHub. Built a custom Docker image and pushed it to Docker Hub. Designed and executed a CI/CD pipeline using Jenkins and a Jenkinsfile to automate the build and deployment process. Utilized Kubernetes for container orchestration, enabling auto-scaling and self-healing of application pods. This project demonstrates hands-on experience with Docker, Jenkins, and Kubernetes in a production-like environment.",
+        image: "https://portfolio-bucket-azc.s3.ap-south-1.amazonaws.com/sample-of-doctor-booking-app.jpg",
+        tags: ["Docker", "Jenkins", "GitHub", "CI/CD", "Docker Compose", "kubernetes"],
+        github: "https://github.com/priyanshijat/appointment-booking.git",
         demo: "",
-        stars: 25,
+        stars: 5,
         forks: 8,
         category: "devops",
         achievements: ["99% application uptime", "80% faster time to market"]
@@ -51,7 +51,7 @@ export default function Projects() {
           "Containerized Node.js Todo application using Docker and orchestrated it with Kubernetes YAML files. Integrated SonarQube for static code analysis and Grafana with Prometheus for monitoring.",
         image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
         tags: ["Node.js", "Docker", "Kubernetes", "SonarQube", "Grafana", "Prometheus"],
-        github: "https://github.com/priyanshijat",
+        github: "https://github.com/priyanshijat/Node-todo-application.git",
         demo: "",
         stars: 32,
         forks: 12,
@@ -79,7 +79,7 @@ export default function Projects() {
           "Designed and implemented an AWS-based two-tier web application with NGINX managed through CloudFormation templates. Implemented traffic-aware scaling through AWS Auto Scaling Groups.",
         image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=300&fit=crop",
         tags: ["AWS", "NGINX", "CloudFormation", "Auto Scaling", "WAF", "Linux"],
-        github: "https://github.com/priyanshijat",
+        github: "https://github.com/priyanshijat/two-tier-flask-app.git",
         demo: "",
         stars: 28,
         forks: 9,
@@ -114,6 +114,21 @@ export default function Projects() {
         category: "devops",
         achievements: ["Automated deployment pipeline", "Zero-downtime deployments", "Container orchestration", "API performance optimization", "Comprehensive monitoring setup"]
       }
+      {
+        id: 5,
+        title: "online-shopping appication",
+        description:
+          "Cloned an online shopping application from GitHub and containerized it using Docker. Implemented a Jenkins pipeline using a Jenkinsfile to automate the build and deployment process. The pipeline was configured to trigger on every code push, ensuring continuous integration and delivery. This project showcases practical knowledge of source control (GitHub), containerization (Docker), and CI/CD automation (Jenkins).",
+        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
+        tags: ["AWS", "GitHub", "Docker", "jenkins"],
+        github: "https://github.com/priyanshijat/online_shop.git",
+        demo: "",
+        stars: 5,
+        forks: 4,
+        category: "devops",
+        achievements: ["achieving 100% deployment automation and 90% faster release cycles"]
+      }
+
     ]
 
     setProjects(mockProjects)
@@ -145,6 +160,7 @@ export default function Projects() {
       },
     },
   }
+  
 
   const item = {
     hidden: { opacity: 0, y: 20 },
@@ -156,14 +172,14 @@ export default function Projects() {
   }
 
   if (isLoading) {
-    return (
+    return (<>
       <section id="projects" className="section">
         <h2 className="section-heading">My Projects</h2>
         <div className="flex justify-center items-center h-64">
           <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
         </div>
       </section>
-    )
+    </>)
   }
 
   return (
