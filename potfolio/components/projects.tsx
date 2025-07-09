@@ -60,7 +60,7 @@ export default function Projects() {
       },
       {
         id: 3,
-        title: "Serverless Deployment ",
+        title: "Serverless Deployment with AWS",
         description:
           "Developed and deployed a Python-based AWS Lambda function to perform insert/delete operations on a DynamoDB table. Configured IAM roles for secure access and used CloudWatch for monitoring.",
         image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=300&fit=crop",
@@ -85,6 +85,34 @@ export default function Projects() {
         forks: 9,
         category: "cloud",
         achievements: ["40% improved resource utilization", "30% lower latency", "50% reduced security incidents"]
+      },
+      {
+        id: 5,
+        title: "Appointment Booking Website",
+        description:
+          "Developed a comprehensive doctor appointment booking system with complete CI/CD pipeline implementation. Containerized the application using Docker, orchestrated with Kubernetes, and deployed using Jenkins with NodePort service for external access.",
+        image: "https://portfolio-bucket-azc.s3.ap-south-1.amazonaws.com/sample-of-doctor-booking-app.jpg",
+        tags: ["Docker", "Kubernetes", "Jenkins", "CI/CD", "NodePort", "React", "Node.js"],
+        github: "https://github.com/priyanshijat",
+        demo: "",
+        stars: 35,
+        forks: 14,
+        category: "devops",
+        achievements: ["Complete CI/CD automation", "Kubernetes orchestration", "High availability deployment", "Scalable microservices architecture"]
+      },
+      {
+        id: 6,
+        title: "Comedy API Server",
+        description:
+          "Built a RESTful Comedy API with comprehensive DevOps implementation featuring automated CI/CD pipelines, Docker containerization, and Kubernetes orchestration. Implemented automated testing, code quality checks, and seamless deployment workflows.",
+        image: "data:image/png;base64,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",
+        tags: ["API", "Docker", "Kubernetes", "Jenkins", "CI/CD", "DevOps", "REST", "Microservices"],
+        github: "https://github.com/priyanshijat",
+        demo: "",
+        stars: 42,
+        forks: 18,
+        category: "devops",
+        achievements: ["Automated deployment pipeline", "Zero-downtime deployments", "Container orchestration", "API performance optimization", "Comprehensive monitoring setup"]
       }
     ]
 
