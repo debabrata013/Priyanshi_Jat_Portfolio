@@ -88,20 +88,6 @@ export default function Projects() {
       },
       {
         id: 5,
-        title: "Appointment Booking Website",
-        description:
-          "Developed a comprehensive doctor appointment booking system with complete CI/CD pipeline implementation. Containerized the application using Docker, orchestrated with Kubernetes, and deployed using Jenkins with NodePort service for external access.",
-        image: "https://portfolio-bucket-azc.s3.ap-south-1.amazonaws.com/sample-of-doctor-booking-app.jpg",
-        tags: ["Docker", "Kubernetes", "Jenkins", "CI/CD", "NodePort", "React", "Node.js"],
-        github: "https://github.com/priyanshijat",
-        demo: "",
-        stars: 35,
-        forks: 14,
-        category: "devops",
-        achievements: ["Complete CI/CD automation", "Kubernetes orchestration", "High availability deployment", "Scalable microservices architecture"]
-      },
-      {
-        id: 6,
         title: "Comedy API Server",
         description:
           "Built a RESTful Comedy API with comprehensive DevOps implementation featuring automated CI/CD pipelines, Docker containerization, and Kubernetes orchestration. Implemented automated testing, code quality checks, and seamless deployment workflows.",
@@ -115,7 +101,7 @@ export default function Projects() {
         achievements: ["Automated deployment pipeline", "Zero-downtime deployments", "Container orchestration", "API performance optimization", "Comprehensive monitoring setup"]
       },
       {
-        id: 7,
+        id: 6,
         title: "online-shopping application",
         description:
           "Cloned an online shopping application from GitHub and containerized it using Docker. Implemented a Jenkins pipeline using a Jenkinsfile to automate the build and deployment process. The pipeline was configured to trigger on every code push, ensuring continuous integration and delivery. This project showcases practical knowledge of source control (GitHub), containerization (Docker), and CI/CD automation (Jenkins).",
