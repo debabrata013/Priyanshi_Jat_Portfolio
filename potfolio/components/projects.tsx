@@ -46,6 +46,20 @@ export default function Projects() {
       },
       {
         id: 2,
+        title: "comedy-API-server",
+        description:
+          "Deployed a Comedy-API server application using K8s, Docker and jenkins",
+        image: "",
+        tags: ["Docker", "Jenkins", "GitHub", "CI/CD", "Docker Compose", "kubernetes" ],
+        github: "https://github.com/priyanshijat/Comedy-API-server.git",
+        demo: "",
+        stars: 3,
+        forks: 2,
+        category: "devops",
+        achievements: ["90% application uptime", "80% faster time to market"]
+      },
+      {
+        id: 3,
         title: "Node.js Todo App with Kubernetes",
         description:
           "Containerized Node.js Todo application using Docker and orchestrated it with Kubernetes YAML files. Integrated SonarQube for static code analysis and Grafana with Prometheus for monitoring.",
@@ -59,7 +73,7 @@ export default function Projects() {
         achievements: ["70% reduced setup time", "Improved deployment reliability"]
       },
       {
-        id: 3,
+        id: 4,
         title: "Serverless Deployment ",
         description:
           "Developed and deployed a Python-based AWS Lambda function to perform insert/delete operations on a DynamoDB table. Configured IAM roles for secure access and used CloudWatch for monitoring.",
@@ -73,7 +87,7 @@ export default function Projects() {
         achievements: ["100% automation", "95% reduced manual errors", "80% optimized execution efficiency"]
       },
       {
-        id: 4,
+        id: 5,
         title: "AWS Two-Tier Web Application",
         description:
           "Designed and implemented an AWS-based two-tier web application with NGINX managed through CloudFormation templates. Implemented traffic-aware scaling through AWS Auto Scaling Groups.",
@@ -87,7 +101,7 @@ export default function Projects() {
         achievements: ["40% improved resource utilization", "30% lower latency", "50% reduced security incidents"]
       }
       {
-        id: 5,
+        id: 6,
         title: "online-shopping appication",
         description:
           "Cloned an online shopping application from GitHub and containerized it using Docker. Implemented a Jenkins pipeline using a Jenkinsfile to automate the build and deployment process. The pipeline was configured to trigger on every code push, ensuring continuous integration and delivery. This project showcases practical knowledge of source control (GitHub), containerization (Docker), and CI/CD automation (Jenkins).",
