@@ -32,88 +32,142 @@ export default function Projects() {
     const mockProjects: Project[] = [
       {
         id: 1,
-        title: "Retail-store application",
+        title: "Retail-Store Application Deployment",
         description:
-          "A fully automated retail-store application deployment project using modern DevOps practices. The project involved setting up cloud infrastructure, deployment pipelines, and continuous integration/delivery workflows.",
+          "Developed and deployed a Retail-Store Application using modern DevOps practices with full automation. Provisioned cloud infrastructure on AWS using Terraform (IaC), set up Kubernetes clusters with EKS, and managed deployments using ArgoCD and Helm. Implemented a CI/CD pipeline with GitHub Actions for automated builds, testing, and deployments, ensuring faster release cycles and reliability.",",
         image: "https://portfolio-bucket-6a.s3.eu-west-1.amazonaws.com/Retail-store-image.jpg",
-        tags: ["Elastic Kubernets Service", "Helm", "GitHub Actions", "ArgoCD", "AWS", "Elastic Container Registry", "Docker"],
+        tags: ["Terraform", "AWS (EKS, EC2, ECR, VPC)","Kubernetes","ArgoCD","Helm","GitHub Actions","CI/CD","Automation","Cloud Infrastructure"],
         github: "https://github.com/priyanshijat/retail-store-sample-app.git",
         demo: "",
         stars: 5,
         forks: 8,
-        category: "devops and AWS",
-        achievements: ["99% application uptime", "80% faster time to market"]
+        category: "Devops and AWS",
+        achievements: [
+          "Successfully deployed the application with a fully automated end-to-end CI/CD pipeline",
+          "Improved deployment efficiency and reduced manual intervention by 80%",
+          "Provisioned scalable and secure infrastructure using Terraform and AWS EKS",
+          "Implemented GitOps workflow with ArgoCD and Helm for seamless deployments"
+        ]
       },
+
       {
         id: 2,
-        title: "comedy-API-server",
+        title: "Comedy API Server Deployment",
         description:
-          "Deployed a Comedy-API server application using K8s, Docker and jenkins",
+          "Designed and deployed a Comedy API Server application using Kubernetes and Docker with a fully automated CI/CD pipeline in GitLab. Implemented container orchestration, monitoring with Prometheus & Grafana, and GitOps workflows for reliable deployments. The system is designed for scalability, high availability, and real-time observability.",
         image: "https://portfolio-bucket-6a.s3.eu-west-1.amazonaws.com/comedy-image.jpg",
-        tags: ["Docker", "Jenkins", "GitHub", "CI/CD", "Docker Compose", "kubernetes" ],
+        tags: ["Docker","Kubernetes","GitLab CI/CD","GitHub","Prometheus","Grafana","GitOps","Automation","Cloud Native"],
         github: "https://github.com/priyanshijat/Comedy-API-server.git",
         demo: "",
         stars: 3,
         forks: 2,
-        category: "devops",
-        achievements: ["90% application uptime", "80% faster time to market"]
+        category: "DevOps",
+        achievements: [
+          "Achieved 90% application uptime with Kubernetes orchestration",
+          "Reduced deployment time by 80% through automated CI/CD pipelines",
+          "Integrated Prometheus & Grafana dashboards for proactive monitoring and alerts",
+          "Enabled auto-scaling to handle variable workloads efficiently",
+          "Followed GitOps principles for seamless and reliable delivery"
+        ]
       },
+
       {
         id: 3,
-        title: "Node.js Todo App with Kubernetes",
+        title: "Appointment Booking Application Deployment",
         description:
-          "Containerized Node.js Todo application using Docker and orchestrated it with Kubernetes YAML files. Integrated SonarQube for static code analysis and Grafana with Prometheus for monitoring.",
-        image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-        tags: ["Node.js", "Docker", "Kubernetes", "SonarQube", "Grafana", "Prometheus"],
+          "Containerized and deployed an Appointment Booking Application using Docker and Kubernetes. Managed infrastructure with AWS CloudFront for global content delivery, integrated SonarQube for static code analysis to maintain code quality, and implemented real-time monitoring with Prometheus and Grafana. Automated builds and deployments with GitHub Actions to ensure faster and more reliable delivery.",
+        image: "https://portfolio-bucket-6a.s3.eu-west-1.amazonaws.com/appointment-booking.jpg",
+        tags: ["AWS CloudFront","Docker","Kubernetes","GitHub Actions","SonarQube","Prometheus","Grafana", "CI/CD","Automation"],
         github: "https://github.com/priyanshijat/Node-todo-application.git",
         demo: "",
         stars: 32,
         forks: 12,
-        category: "devops",
-        achievements: ["70% reduced setup time", "Improved deployment reliability"]
+        category: "DevOps",
+        achievements: [
+          "Accelerated setup and deployment by 70% through efficient containerization",
+          "Achieved highly reliable and scalable deployments via Kubernetes orchestration",
+          "Improved code quality and security with integrated SonarQube static analysis",
+          "Implemented proactive monitoring and alerting using Prometheus and Grafana"
+        ]
       },
       {
-        id: 3,
-        title: "Serverless Deployment ",
+        id: 4,
+        title: "Node.js Todo Application Deployment",
         description:
-          "Developed and deployed a Python-based AWS Lambda function to perform insert/delete operations on a DynamoDB table. Configured IAM roles for secure access and used CloudWatch for monitoring.",
+          "Containerized a Node.js Todo application using Docker and deployed it with Kubernetes for scalable and reliable orchestration. Integrated SonarQube for static code analysis to maintain code quality, and implemented monitoring solutions with Prometheus and Grafana to ensure observability and performance insights.",
+        image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
+        tags: ["Node.js","Docker","Kubernetes","SonarQube","Prometheus","Grafana","CI/CD","Automation"],
+        github: "https://github.com/priyanshijat/Node-todo-application.git",
+        demo: "",
+        stars: 32,
+        forks: 12,
+        category: "DevOps",
+        achievements: [
+          "Reduced setup and deployment time by 70% through containerization",
+          "Improved deployment reliability and scalability with Kubernetes orchestration",
+          "Enhanced code quality and security using SonarQube static code analysis",
+          "Enabled proactive monitoring with Prometheus and Grafana dashboards"
+        ]
+      },
+      {
+        id: 5,
+        title: "Serverless Deployment with AWS Lambda & DynamoDB",
+        description:
+          "Developed and deployed a Python-based AWS Lambda function to handle insert and delete operations on a DynamoDB table. Configured IAM roles and policies for secure access control, and integrated Amazon CloudWatch for monitoring, logging, and performance insights. This project showcases event-driven, serverless architecture for scalable and cost-efficient solutions.",
         image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=300&fit=crop",
-        tags: ["AWS Lambda", "DynamoDB", "Python", "IAM", "CloudWatch"],
+        tags: ["AWS Lambda","DynamoDB","Python","IAM","CloudWatch","Serverless","Event-Driven"],
         github: "https://github.com/priyanshijat",
         demo: "",
         stars: 18,
         forks: 5,
-        category: "cloud",
-        achievements: ["100% automation", "95% reduced manual errors", "80% optimized execution efficiency"]
+        category: "Cloud",
+        achievements: [
+          "Implemented a cost-efficient serverless architecture using AWS Lambda",
+          "Secured application access with fine-grained IAM roles and policies",
+          "Achieved real-time logging and monitoring via Amazon CloudWatch",
+          "Reduced operational overhead by eliminating the need for server management"
+        ]
       },
       {
-        id: 5,
-        title: "AWS Two-Tier Web Application",
+        id: 6,
+        title: "AWS Two-Tier Web Application Deployment",
         description:
-          "Designed and implemented an AWS-based two-tier web application with NGINX managed through CloudFormation templates. Implemented traffic-aware scaling through AWS Auto Scaling Groups.",
+          "Designed and deployed a highly available two-tier web application architecture on AWS. Used CloudFormation templates to provision infrastructure as code, deployed NGINX as a web server, and implemented traffic-aware scaling with AWS Auto Scaling Groups. Enhanced application security with AWS WAF and Linux-based hardening practices, ensuring performance, scalability, and resilience.",
         image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=300&fit=crop",
-        tags: ["AWS", "NGINX", "CloudFormation", "Auto Scaling", "WAF", "Linux"],
+        tags: ["AWS","NGINX","CloudFormation","Auto Scaling","WAF","Linux","Infrastructure as Code","Scalability"],
         github: "https://github.com/priyanshijat/two-tier-flask-app.git",
         demo: "",
         stars: 28,
         forks: 9,
-        category: "cloud",
-        achievements: ["40% improved resource utilization", "30% lower latency", "50% reduced security incidents"]
+        category: "Cloud",
+        achievements: [
+          "Improved resource utilization by 40% with traffic-aware scaling",
+          "Reduced application latency by 30% using optimized load balancing",
+          "Minimized security incidents by 50% through AWS WAF and server hardening",
+          "Enabled repeatable and automated deployments using CloudFormation"
+        ]
       },
       {
-        id: 5,
-        title: "online-shopping appication",
+
+        id: 7,
+        title: "Online Shopping Application with CI/CD Automation",
         description:
-          "Cloned an online shopping application from GitHub and containerized it using Docker. Implemented a Jenkins pipeline using a Jenkinsfile to automate the build and deployment process. The pipeline was configured to trigger on every code push, ensuring continuous integration and delivery. This project showcases practical knowledge of source control (GitHub), containerization (Docker), and CI/CD automation (Jenkins).",
+          "Containerized an e-commerce application using Docker and automated its deployment pipeline with Jenkins. Created a Jenkinsfile-based CI/CD pipeline integrated with GitHub webhooks to ensure automated builds and deployments on every code push. This project highlights hands-on experience in source control, containerization, and continuous integration/delivery practices on AWS infrastructure.",
         image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-        tags: ["AWS", "GitHub", "Docker", "jenkins"],
+        tags: ["AWS", "GitHub", "Docker", "Jenkins", "CI/CD", "Automation"],
         github: "https://github.com/priyanshijat/online_shop.git",
         demo: "",
         stars: 5,
         forks: 4,
-        category: "devops",
-        achievements: ["achieving 100% deployment automation and 90% faster release cycles"]
+        category: "DevOps",
+        achievements: [
+          "Achieved 100% deployment automation with Jenkins pipelines",
+          "Reduced release cycles by 90% through CI/CD adoption",
+          "Improved code quality and consistency with automated build validations"
+        ]
       }
+
+      
 
     ]
 
