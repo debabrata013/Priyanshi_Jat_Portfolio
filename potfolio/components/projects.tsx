@@ -49,7 +49,7 @@ export default function Projects() {
         title: "comedy-API-server",
         description:
           "Deployed a Comedy-API server application using K8s, Docker and jenkins",
-        image: "",
+        image: "https://portfolio-bucket-6a.s3.eu-west-1.amazonaws.com/comedy-image.jpg",
         tags: ["Docker", "Jenkins", "GitHub", "CI/CD", "Docker Compose", "kubernetes" ],
         github: "https://github.com/priyanshijat/Comedy-API-server.git",
         demo: "",
