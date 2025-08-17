@@ -32,16 +32,16 @@ export default function Projects() {
     const mockProjects: Project[] = [
       {
         id: 1,
-        title: "appointment-booking application",
+        title: "Retail-store application",
         description:
-          "Deployed a containerized appointment booking application by cloning the source code from GitHub. Built a custom Docker image and pushed it to Docker Hub. Designed and executed a CI/CD pipeline using Jenkins and a Jenkinsfile to automate the build and deployment process. Utilized Kubernetes for container orchestration, enabling auto-scaling and self-healing of application pods. This project demonstrates hands-on experience with Docker, Jenkins, and Kubernetes in a production-like environment.",
-        image: "https://portfolio-bucket-azc.s3.ap-south-1.amazonaws.com/sample-of-doctor-booking-app.jpg",
-        tags: ["Docker", "Jenkins", "GitHub", "CI/CD", "Docker Compose", "kubernetes"],
-        github: "https://github.com/priyanshijat/appointment-booking.git",
+          "A fully automated retail-store application deployment project using modern DevOps practices. The project involved setting up cloud infrastructure, deployment pipelines, and continuous integration/delivery workflows.",
+        image: "https://portfolio-bucket-6a.s3.eu-west-1.amazonaws.com/Retail-store-image.jpg",
+        tags: ["Elastic Kubernets Service", "Helm", "GitHub Actions", "ArgoCD", "AWS", "Elastic Container Registry", "Docker"],
+        github: "https://github.com/priyanshijat/retail-store-sample-app.git",
         demo: "",
         stars: 5,
         forks: 8,
-        category: "devops",
+        category: "devops and AWS",
         achievements: ["99% application uptime", "80% faster time to market"]
       },
       {
