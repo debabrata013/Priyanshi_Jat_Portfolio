@@ -34,7 +34,7 @@ export default function Projects() {
         id: 1,
         title: "Retail-Store Application Deployment",
         description:
-          "Developed and deployed a Retail-Store Application using modern DevOps practices with full automation. Provisioned cloud infrastructure on AWS using Terraform (IaC), set up Kubernetes clusters with EKS, and managed deployments using ArgoCD and Helm. Implemented a CI/CD pipeline with GitHub Actions for automated builds, testing, and deployments, ensuring faster release cycles and reliability.",",
+          "Developed and deployed a Retail-Store Application using modern DevOps practices with full automation. Provisioned cloud infrastructure on AWS using Terraform (IaC), set up Kubernetes clusters with EKS, and managed deployments using ArgoCD and Helm. Implemented a CI/CD pipeline with GitHub Actions for automated builds, testing, and deployments, ensuring faster release cycles and reliability.",
         image: "https://portfolio-bucket-6a.s3.eu-west-1.amazonaws.com/Retail-store-image.jpg",
         tags: ["Terraform", "AWS (EKS, EC2, ECR, VPC)","Kubernetes","ArgoCD","Helm","GitHub Actions","CI/CD","Automation","Cloud Infrastructure"],
         github: "https://github.com/priyanshijat/retail-store-sample-app.git",
